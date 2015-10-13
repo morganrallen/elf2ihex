@@ -2,6 +2,7 @@
   "name": "elf2ihex",
   "version": "1.0.0",
   "description": "Dumps .text and .data to Intel HEX format",
+  "author": "Morgan 'ARR!' Allen",
   "main": "index.js",
   "scripts": {
     "test": "tape test/test.js"
@@ -14,7 +15,14 @@
     "atmel",
     "elf"
   ],
-  "author": "Morgan 'ARR!' Allen",
+  "contributors": [{
+    "name": "Morgan 'ARR!' Allen",
+    "email": "morganrallen@gmail.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morganrallen/elf2ihex"
+  },
   "license": "MIT",
   "dependencies": {
     "elfy": "^0.1.0",
